@@ -1,0 +1,75 @@
+%flexAlignCenter {
+  display: flex;
+  align-items: center;
+}
+
+.Navigation {
+  @extend %flexAlignCenter;
+  justify-content: space-between;
+  h3 {
+      color: white;
+  }
+}
+
+nav {
+  border: solid;
+  background-color: black;
+  ul {
+    list-style-type: none;
+    text-decoration: none;
+    @extend %flexAlignCenter;
+    justify-content: space-evenly;
+    width: 400px;
+  }
+}
+  li {
+    a {
+      text-decoration: none;
+      color: whitesmoke;
+    }
+  }
+  h3 {
+    padding: 5px;
+    color: black;
+  }
+
+.header {
+  border: solid;  
+  background-image: url('../Images/wp1865852-jakarta-wallpapers.jpg');
+  background-repeat: no-repeat;
+  padding: 120px;
+  background-position: -100px -380px;
+}
+
+
+    .button2 {
+        background-color: darkred;
+        h4{
+            color: azure;
+        }
+    }
+
+    .button3 {
+        background-color: black;
+        h4 {
+            color: azure;
+        }
+    }
+    
+    .image {
+        text-align: center;
+        justify-content: space-evenly;
+    }
+
+main {
+    border: none;
+    padding: 5px;
+    h1 {
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+}
+
+

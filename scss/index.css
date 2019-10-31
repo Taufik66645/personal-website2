@@ -1,0 +1,87 @@
+.Navigation, nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Navigation {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Navigation h3 {
+  color: white;
+}
+
+nav {
+  border: solid;
+  background-color: black;
+}
+
+nav ul {
+  list-style-type: none;
+  text-decoration: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 400px;
+}
+
+li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+h3 {
+  padding: 5px;
+  color: black;
+}
+
+.header {
+  border: solid;
+  background-image: url("../Images/wp1865852-jakarta-wallpapers.jpg");
+  background-repeat: no-repeat;
+  padding: 120px;
+  background-position: -100px -380px;
+}
+
+.button2 {
+  background-color: darkred;
+}
+
+.button2 h4 {
+  color: azure;
+}
+
+.button3 {
+  background-color: black;
+}
+
+.button3 h4 {
+  color: azure;
+}
+
+.image {
+  text-align: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main {
+  border: none;
+  padding: 5px;
+}
+
+main h1 {
+  text-align: center;
+}
+
+main p {
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */
